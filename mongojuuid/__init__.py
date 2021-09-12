@@ -67,7 +67,7 @@ def _to_base64(_hex):
 
 
 def _to_hex(bindata):
-    base64 = re.sub(r'BinData\(3,["\']([^\)]+)["\']\)', '\\1', bindata).strip()
+    base64 = re.sub(r'BinData\(3,\s*["\']([^\)]+)["\']\)', '\\1', bindata).strip()
     groups = [base64[i:i + 4] for i in range(0, 24, 4)]
     _hex = ""
     for group in groups:

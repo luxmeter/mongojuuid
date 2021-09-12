@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mongojuuid"
-version = "0.1.1"
+version = "0.1.2"
 description = "CLI to convert BinData Subtype 3 to JUUID and vice-versa"
 authors = ["Mustafa Caylak <mustafa.caylak@web.de>"]
 license = "MIT"
