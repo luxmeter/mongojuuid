@@ -18,10 +18,10 @@ Use [Pipx to download and install the application in a virtual environment](http
 
 ```bash
 # use either pipx
-pipx install --pip-args=--pre mongojuuid==0.1.1
+pipx install mongojuuid
 
 # or alternatively pip 
-python3 -m pip install --pre mongojuuid==0.1.1
+python3 -m pip install mongojuuid
 ```
 
 # Usage
